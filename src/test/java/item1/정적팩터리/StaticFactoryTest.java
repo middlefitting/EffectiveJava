@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
  * @author : middlefitting
  * @since : 2023/10/20
  */
+@DisplayName("정적 팩터리란?")
 class StaticFactoryTest {
   @Test
   @DisplayName("정적 팩터리 메서드 테스트")
