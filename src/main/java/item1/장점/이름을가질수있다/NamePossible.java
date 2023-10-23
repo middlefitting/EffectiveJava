@@ -4,7 +4,7 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 /**
- * NamePossible.
+ * ChildPossible.
  *
  * @author : middlefitting
  * @since : 2023/10/20
