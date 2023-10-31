@@ -34,12 +34,6 @@ public class RecursiveTypeComparable<T extends Comparable<T>> implements
     return num - o.getNum();
   }
 
-  public static void main(String[] args) {
-    RecursiveTypeComparable<Integer> recursiveTypeComparable = new RecursiveTypeComparable<>(1);
-    RecursiveTypeComparable<Integer> recursiveTypeComparable2 = new RecursiveTypeComparable<>(2);
-    System.out.println(recursiveTypeComparable.compareTo(recursiveTypeComparable2));
-  }
-
 }
 
 /**
