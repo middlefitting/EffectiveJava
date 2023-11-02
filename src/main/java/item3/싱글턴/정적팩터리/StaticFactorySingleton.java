@@ -1,7 +1,6 @@
 package item3.싱글턴.정적팩터리;
 
 import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 /**
