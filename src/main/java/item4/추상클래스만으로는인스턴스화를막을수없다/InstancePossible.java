@@ -3,10 +3,10 @@ package item4.추상클래스만으로는인스턴스화를막을수없다;
 import lombok.NoArgsConstructor;
 
 /**
- * InstancePossible.
+ * 추상클래스만으로는 인스턴스화를 막을 수 없다.
  *
  * <p>
- *
+ *  상속받은 자식 클래스는 인스턴스화를 가능하게 할 수 있다.
  * </p>
  *
  * @author : middlefitting
