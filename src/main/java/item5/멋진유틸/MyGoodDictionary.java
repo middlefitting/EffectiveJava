@@ -16,8 +16,8 @@ import java.util.HashMap;
 public class MyGoodDictionary<T> {
   private final HashMap<T, String> dictionary;
 
-  private MyGoodDictionary() {
-    throw new AssertionError();
+  private MyGoodDictionary(HashMap<T, String> dictionary) {
+    this.dictionary = dictionary;
   }
 
   public boolean isContain(T word) {
