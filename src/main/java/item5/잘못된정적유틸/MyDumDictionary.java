@@ -15,10 +15,10 @@ import java.util.List;
  * @see :
  * @since : 2023/11/14
  */
-public class SpellChecker {
+public class MyDumDictionary {
   private static final HashMap<String, String> dictionary = new HashMap<>();
 
-  private SpellChecker() {
+  private MyDumDictionary() {
     throw new AssertionError();
   }
 
